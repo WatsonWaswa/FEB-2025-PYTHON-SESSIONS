@@ -21,5 +21,5 @@ name = "My name is Watson Waswa" #string datatype
 languages = ["Python", "HTML", "CSS", 3, 5.7, True]  #can gold different datatypes
 print(languages)
 print(languages[2])
-print(languages[5])
-print(languages[-5])
+print(languages[5]) #starts counting from left - positive index
+print(languages[-5]) #starts counting from right - negative index
